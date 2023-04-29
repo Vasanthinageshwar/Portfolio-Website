@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+  }
+   
+  .navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 500;
+    padding:0;
+    display:inline;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    height:100px;
+    width:100%;
+    padding:0;
+    display:inline;
+  }
+  
+  .menu-items {
+    display: flex;
+    align-items:center;
+    background-color: #000000;
+     width: 100%;
+     height:100px;
+     padding-left:35%;
+  }
+      
+  .menu-items li {
+    list-style: none;
+    padding: 1rem;
+  }
+  
+  .menu-items a {
+    text-decoration: none;
+    color: #f0f0e6;
+    font-size: 1.2rem;
+    padding: 0.3rem;
+  }
+  
+  .menu-items a:hover {
+    border-bottom: 2px solid #f0f0e6;
+  }
+  
+  .navbar .logo {
+    order: 1;
+    color: #f0f0e6;
+    font-size: 2rem;
+  }
+
+  .home-content .name {
+    position: absolute;
+    top:47%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 100%;
+    text-align: center;
+    
+  }
+  
+  .home-content .centered h1{
+    position:absolute;
+    top:250px;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size: 50px;
+  }
+  
+  .home-content .centered p {
+    position:absolute;
+    top:300px;
+    left:50%;
+    transform:translate(-50%,-50%);
+    font-size: 40px;
+  }
+  .home-content .name img {
+    width:100%;
+    height:600px;
+  }
+  
+  .paragraph p {
+    width: 100%;
+    height: 100px;
+    color: black;
+    padding-top: 700px;
+    padding-left: 200px;
+    padding-bottom: 150px;
+  }
+  #Internships h1{
+    padding-top: 10px;
+    text-align: center;
+    background-color: gainsboro;
+    height: 50px;
+  } 
+  
+   #project h1{
+    padding-top: 10px;
+    text-align: center;
+    background-color: gainsboro;
+    height: 50px;
+  } 
+  
+  #articles h1{
+    padding-top: 10px;
+    text-align: center;
+    background-color: gainsboro;
+    height: 50px;
+  }
+
+  #contact-me div{
+    
+    padding-top: 15px;
+    text-align: center;
+    padding-bottom: 15px;
+
+  }
+  .apps div{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  html{
+    scroll-behavior: smooth;
+  }
